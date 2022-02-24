@@ -1,0 +1,1 @@
+require('./snakecam/snakecam.js');

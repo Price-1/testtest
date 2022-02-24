@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    background: url(https://cdn.discordapp.com/attachments/760652191328632872/946237117095346217/gta-world-2022-2-24-4-48-8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-size: 15px;
+}
+  
+.wrapper {
+    margin-top: 10vh;
+    margin-right: 10vh;
+    color: #fff;
+}
+  
+.hud {
+    position: relative;
+    float: right;
+    background: linear-gradient(99deg, rgba(0,0,0,1) 0%, rgba(23,32,207,0.6) 50%, rgba(6,14,140,0.6) 100%);
+    width: 39vh;
+    height: 37vh;
+    border-radius: 6%;
+}
+  
+.hud-text {
+    text-align: center;
+}
+  
+#mom {
+    position: absolute;
+    right: 309px;
+    top: 12px;
+}
+  
+.time {
+    position: relative;
+    font-size: 12px;
+    float: right;
+    padding-right: 30px;
+}
+  
+.outer {
+    position: relative;
+    width: 1900px;
+    height: 930px;
+    top: -90px;
+    background:
+      linear-gradient(to right, white 4px, transparent 4px) 0 0,
+      linear-gradient(to right, white 4px, transparent 4px) 0 100%,
+      linear-gradient(to left, white 4px, transparent 4px) 100% 0,
+      linear-gradient(to left, white 4px, transparent 4px) 100% 100%,
+      linear-gradient(to bottom, white 4px, transparent 4px) 0 0,
+      linear-gradient(to bottom, white 4px, transparent 4px) 100% 0,
+      linear-gradient(to top, white 4px, transparent 4px) 0 100%,
+      linear-gradient(to top, white 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+  
+hr {
+    margin: 30px 0;
+    height: 1px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, white));
+}
+  
